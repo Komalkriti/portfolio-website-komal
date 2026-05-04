@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ride Showcase | Komal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,600;1,400&family=Righteous&family=Roboto+Condensed:wght@500&family=Rock+Salt&display=swap" rel="stylesheet">
+    <style>
+        .purple-text { color: #8A79E2 !important; }
+        .section-heading { color: #fff !important; }
+        .problem-title { color: #fff !important; }
+        .brief-tag { 
+            border-color: rgba(138, 121, 226, 0.4) !important; 
+            color: #8A79E2 !important; 
+        }
+        .showcase-page p, .showcase-page li, .problem-subtitle, .problem-top-meta span {
+            font-family: 'Quicksand', sans-serif !important;
+        }
+        .showcase-page h1, .showcase-page h2, .showcase-page h3, .showcase-page h4 {
+            font-family: 'Righteous', sans-serif !important;
+        }
+        .clean-list li::before {
+            content: none !important;
+        }
+        .dot {
+            background: rgba(138, 121, 226, 0.2) !important;
+        }
+        .dot.active {
+            background: #8A79E2 !important;
+        }
+        .slider-nav {
+            color: #8A79E2 !important;
+        }
+        .slider-nav:hover {
+            background: #8A79E2 !important;
+            color: #fff !important;
+        }
+        .view-all-btn { 
+            background: transparent !important; 
+            border: 1px solid #8A79E2 !important; 
+            color: #8A79E2 !important; 
+            font-weight: 700 !important;
+            font-family: 'Righteous', sans-serif !important;
+        }
+        .view-all-btn:hover, .view-all-btn:active { 
+            background: #8A79E2 !important; 
+            color: #1a1a1a !important; 
+        }
+        .view-all-btn.secondary {
+            background: rgba(138, 121, 226, 0.1) !important;
+            border-color: rgba(138, 121, 226, 0.3) !important;
+        }
+        .view-all-btn.secondary:hover {
+            background: #8A79E2 !important;
+            color: #1a1a1a !important;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Kokomelon.</div>
+        <nav class="nav">
+            <a href="index.html#home" class="nav-item">Home</a>
+            <a href="about.html" class="nav-item">About</a>
+            <a href="projects.html" class="nav-item">Projects</a>
+            <a href="#connect" class="nav-item">Connect</a>
+        </nav>
+    </header>
+
+    <main class="showcase-page">
+        <!-- Hero Section -->
+        <section class="showcase-hero">
+            <div class="showcase-container">
+                <div class="hero-flex">
+                    <div class="hero-text-content">
+                        <h1 class="showcase-title">Food Ride</h1>
+                        <p class="showcase-subtitle">Streamlining Restaurant Order Management</p>
+                    </div>
+
+                    <div class="hero-mockup">
+                        <img src="images/Web project 2.png" alt="Food Ride Showcase" class="main-mockup">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="project-details centered">
+            <div class="showcase-container">
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <h3 class="purple-text">Role</h3>
+                        <p>UI/UX Project</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3 class="purple-text">Duration</h3>
+                        <p>4 Weeks</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3 class="purple-text">Deliverables</h3>
+                        <p>10+ Screens</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="showcase-content-wrapper">
+            <!-- Sticky Sidebar -->
+            <aside class="showcase-sidebar">
+                <nav class="side-nav">
+                    <a href="#overview" class="side-nav-item active">Overview</a>
+                    <a href="#context" class="side-nav-item">Context & Backstory</a>
+                    <a href="#problem" class="side-nav-item">Breaking point</a>
+                    <a href="#research" class="side-nav-item">Finding answers</a>
+                    <a href="#ia" class="side-nav-item">Seeing what works</a>
+                    <a href="#wireframes" class="side-nav-item">Solution wireframing</a>
+                    <a href="#designs" class="side-nav-item">Jump to designs</a>
+                    <a href="#results" class="side-nav-item">What we achieved</a>
+                    <a href="#wisdom" class="side-nav-item">Wisdom gained</a>
+                </nav>
+            </aside>
+
+            <!-- Main Content Area -->
+            <div class="showcase-main-content">
+                <!-- Overview Section -->
+                <section class="showcase-section centered" id="overview">
+                    <div class="showcase-container">
+                        <h2 class="section-heading">Overview</h2>
+                        <div class="brief-tags centered">
+                            <span class="brief-tag">User research</span>
+                            <span class="brief-tag">IA</span>
+                            <span class="brief-tag">UI/UX Design</span>
+                            <span class="brief-tag">Prototyping</span>
+                        </div>
+                        <div class="section-text centered-text">
+                            <p>Food Ride is a streamlined web application/ POS system designed to help restaurant staff manage online orders with clarity and ease. It unifies new, active, and completed orders into one intuitive dashboard, reducing confusion and speeding up workflow. With real-time updates, POS syncing, and simple controls, Food Ride enhances efficiency during busy shifts and supports smoother kitchen-to-delivery operations.</p>
+                        </div>
+                        
+                        <div class="software-used" style="margin-top: 50px; text-align: center;">
+                            <p style="color: rgba(255,255,255,0.5); font-size: 14px; letter-spacing: 2px; margin-bottom: 20px;">SOFTWARE USED:</p>
+                            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                                <svg width="28" height="42" viewBox="0 0 38 57" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE"/>
+                                    <path d="M0 47.5a9.5 9.5 0 0 1 9.5-9.5H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0ACF83"/>
+                                    <path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#FF7262"/>
+                                    <path d="M0 9.5a9.5 9.5 0 0 0 9.5 9.5H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E"/>
+                                    <path d="M0 28.5a9.5 9.5 0 0 0 9.5 9.5H19v-19H9.5a9.5 9.5 0 0 0-9.5 9.5z" fill="#A259FF"/>
+                                </svg>
+                                <span style="color: #fff; font-size: 28px; font-weight: 700;">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Context Section -->
+                <section class="showcase-section" id="context">
+                    <div class="showcase-container">
+                        <h2 class="section-heading purple-text">Context & Backstory</h2>
+                        <div style="display: flex; flex-wrap: wrap; gap: 60px; align-items: center; margin-top: 40px;">
+                            <div style="flex: 1 1 400px;" class="section-text">
+                                <p>The surge in online food delivery has created a fast-paced ecosystem for restaurants, making them heavily reliant on digital platforms to manage incoming orders, kitchen workflows, and delivery partners.</p>
+                                <br>
+                                <p>When backend systems are fragmented or poorly designed, staff face high stress and operational errors. This case study focuses on designing a unified, efficient POS workflow to resolve these pain points and streamline everyday kitchen-to-delivery operations.</p>
+                            </div>
+                            <div style="flex: 1 1 400px;">
+                                <img src="images/Project2 Web_ Context Deliveryboy.png" alt="Food Delivery Context" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Problem Section -->
+                <section class="showcase-section gray-bg" id="problem">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Staff swap between multiple devices (phone, tablet, POS.)</span>
+                            <span class="meta-right">Missing notifications or slow updates cause frustration..</span>
+                        </div>
+
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">Problem<br>Definition</h2>
+                            <div class="problem-header-right">
+                                <p class="problem-subtitle">Food delivery has become core to restaurant operations, yet staff often juggle multiple platforms, inconsistent notifications, and complicated POS integrations. These inefficiencies cause delays, miscommunication, and order errors — directly affecting customer satisfaction.</p>
+                            </div>
+                        </div>
+
+                        <div class="problem-grid">
+                            <div class="problem-card">
+                                <div class="card-infographic">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#8A79E2" xmlns="http://www.w3.org/2000/svg"><path d="M5 4l15 8-15 8z"></path></svg>
+                                </div>
+                                <h3>System Performance</h3>
+                                <p>Server issues degrade operational efficiency.</p>
+                            </div>
+                            <div class="problem-card">
+                                <div class="card-infographic">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#8A79E2" xmlns="http://www.w3.org/2000/svg"><path d="M5 4l15 8-15 8z"></path></svg>
+                                </div>
+                                <h3>Interface Overload</h3>
+                                <p>Complex UI increases user error likelihood.</p>
+                            </div>
+                            <div class="problem-card">
+                                <div class="card-infographic">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#8A79E2" xmlns="http://www.w3.org/2000/svg"><path d="M5 4l15 8-15 8z"></path></svg>
+                                </div>
+                                <h3>Communication Gaps</h3>
+                                <p>Poor coordination causes operational inefficiencies.</p>
+                            </div>
+                            <div class="problem-card">
+                                <div class="card-infographic">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#8A79E2" xmlns="http://www.w3.org/2000/svg"><path d="M5 4l15 8-15 8z"></path></svg>
+                                </div>
+                                <h3>Duplicate Identifiers</h3>
+                                <p>Conflicting codes create operational confusion.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Research Section -->
+                <section class="showcase-section" id="research">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Research insights were gathered through in-person visits, workflow mapping, and staff interactions.</span>
+                            <span class="meta-right">Discovery Phase • Field Research</span>
+                        </div>
+
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">User<br>Research</h2>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px;">
+                            <div class="glass-card" style="padding: 40px; background: rgba(138, 121, 226, 0.05); border: 1px solid rgba(138, 121, 226, 0.2); border-radius: 30px;">
+                                <p style="font-size: 16px; line-height: 1.8; color: rgba(255,255,255,0.8);">As part of my user research, I visited <strong style="color: #8A79E2;">three different restaurants</strong> and <strong style="color: #8A79E2;">conducted interviews</strong> with staff members who manage online food delivery operations.<br><br>These <strong style="color: #8A79E2;">real-world insights</strong> helped me map their workflow accurately and informed the key design decisions for improving the restaurant-side experience.</p>
+                            </div>
+                            
+                            <div class="glass-card" style="padding: 40px; background: rgba(138, 121, 226, 0.05); border: 1px solid rgba(138, 121, 226, 0.2); border-radius: 30px;">
+                                <h3 style="color: #8A79E2; margin-bottom: 25px; font-size: 20px;">Restaurants</h3>
+                                <div style="display: flex; gap: 20px; align-items: center; justify-content: flex-start; flex-wrap: wrap;">
+                                    <div style="text-align: center;">
+                                        <img src="images/Project2 Web_The Pizza Bakery Logo.png" alt="The Pizza Bakery" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px;">
+                                        <br><span style="font-size: 12px; color: rgba(255,255,255,0.7);">The Pizza Bakery</span>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <img src="images/Project2 Web_Go Pizzalogo.png" alt="GOPIZZA" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px;">
+                                        <br><span style="font-size: 12px; color: rgba(255,255,255,0.7);">GOPIZZA</span>
+                                    </div>
+                                    <div style="text-align: center;">
+                                        <img src="images/Project2 Web_TrufflesLogo.png" alt="Truffles" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px;">
+                                        <br><span style="font-size: 12px; color: rgba(255,255,255,0.7);">Truffles</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="insights-box" style="background: rgba(255,255,255,0.02); border-radius: 30px; border: 1px solid rgba(255,255,255,0.05); margin-top: 60px; padding: 40px;">
+                            <h3 style="font-size: 24px; margin-bottom: 30px; color: #8A79E2;">User Research - Summary</h3>
+                            <ul class="clean-list" style="color: rgba(255,255,255,0.8); line-height: 1.8;">
+                                <li style="margin-bottom: 20px;"><strong style="color: #fff;">System Integration Dependency:</strong> All interviewed restaurants rely on integrated POS systems (UrbanPiper, POSist, proprietary systems) to manage multiple delivery platforms.</li>
+                                <li style="margin-bottom: 20px;"><strong style="color: #fff;">Manual-Digital Hybrid Workflows:</strong> Despite automation, significant manual intervention remains necessary for status updates and coordination.</li>
+                                <li><strong style="color: #fff;">Multi-Platform Management Challenges:</strong> Staff regularly manage 4-6 different interfaces simultaneously.</li>
+                            </ul>
+                        </div>
+
+                        <div class="pain-points-section" style="margin-top: 60px;">
+                            <h3 class="col-heading" style="font-size: 20px; margin-bottom: 30px; color: #FF9E9E; text-transform: uppercase; letter-spacing: 1px;">User Research - Pain Points</h3>
+                            <div style="display: flex; flex-direction: column; gap: 20px;">
+                                <div class="glass-card" style="padding: 30px; background: #0A0A0E; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 20px;">
+                                    <h4 style="color: #FF9E9E; font-size: 18px; margin-bottom: 8px;">1. System Performance Issues</h4>
+                                    <p style="color: rgba(255, 255, 255, 0.6); font-size: 15px;">Server lag and crashes during peak hours affect 100% of interviewed locations.</p>
+                                </div>
+                                <div class="glass-card" style="padding: 30px; background: #0A0A0E; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 20px;">
+                                    <h4 style="color: #FF9E9E; font-size: 18px; margin-bottom: 8px;">2. Interface Overload</h4>
+                                    <p style="color: rgba(255, 255, 255, 0.6); font-size: 15px;">Multiple tab/window management creates cognitive burden and error risk.</p>
+                                </div>
+                                <div class="glass-card" style="padding: 30px; background: #0A0A0E; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 20px;">
+                                    <h4 style="color: #FF9E9E; font-size: 18px; margin-bottom: 8px;">3. Limited Access Controls</h4>
+                                    <p style="color: rgba(255, 255, 255, 0.6); font-size: 15px;">Staff often lack access to inventory and advanced features, requiring manager escalation.</p>
+                                </div>
+                                <div class="glass-card" style="padding: 30px; background: #0A0A0E; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 20px;">
+                                    <h4 style="color: #FF9E9E; font-size: 18px; margin-bottom: 8px;">4. Duplicate Identifier Issues</h4>
+                                    <p style="color: rgba(255, 255, 255, 0.6); font-size: 15px;">Same delivery codes causing operational confusion.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="market-research-section" style="margin-top: 100px;">
+                            <div class="problem-main-header">
+                                <h2 class="problem-title purple-text">Market<br>Research</h2>
+                                <div class="problem-header-right">
+                                    <p class="problem-subtitle">Behind every seamless delivery app, restaurant teams juggle multiple complex backend tools to manage orders and kitchen coordination. Understanding these key users and their systems is crucial to identifying operational gaps and improving overall workflow efficiency.</p>
+                                </div>
+                            </div>
+
+                            <div class="glass-card" style="padding: 40px; background: rgba(138, 121, 226, 0.05); border: 1px solid rgba(138, 121, 226, 0.2); border-radius: 30px;">
+                                <h3 style="color: #8A79E2; margin-bottom: 25px; font-size: 20px;">Types of Users Involved</h3>
+                                <ul class="clean-list" style="color: rgba(255,255,255,0.7); line-height: 1.8; font-size: 15px;">
+                                    <li style="margin-bottom: 20px;"><span style="color: #FF9E9E; margin-right: 8px;">→</span> <strong style="color: #8A79E2;">Restaurant Order Coordinators</strong> - Manage incoming online orders, verify items, and track order statuses.</li>
+                                    <li style="margin-bottom: 20px;"><span style="color: #FF9E9E; margin-right: 8px;">→</span> <strong style="color: #8A79E2;">Restaurant Supervisors / Managers</strong> - Oversee daily operations, resolve delays, and ensure smooth kitchen-to-delivery flow.</li>
+                                    <li style="margin-bottom: 20px;"><span style="color: #FF9E9E; margin-right: 8px;">→</span> <strong style="color: #8A79E2;">Kitchen Staff</strong> - Prepare and pack orders efficiently based on real-time updates.</li>
+                                    <li style="margin-bottom: 20px;"><span style="color: #FF9E9E; margin-right: 8px;">→</span> <strong style="color: #8A79E2;">Delivery Partners</strong> - Collect orders, confirm pickup codes, and communicate with staff.</li>
+                                    <li style="margin-bottom: 20px;"><span style="color: #FF9E9E; margin-right: 8px;">→</span> <strong style="color: #8A79E2;">Platform Operations Admins</strong> - Handle POS syncing, system updates, and technical troubleshooting.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Different Platforms Section -->
+                            <div class="platforms-section" style="margin-top: 80px; text-align: center;">
+                                <h3 style="color: #fff; font-size: 20px; margin-bottom: 40px;">Different Platforms Used for Food Delivery Service</h3>
+                                <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px;">
+                                    <div style="flex: 1 1 150px; text-align: center;">
+                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8A79E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                                        <p style="color: rgba(255, 255, 255, 0.85); font-size: 14px; font-weight: bold; line-height: 1.4;">Aggregator-Based<br>Platforms</p>
+                                    </div>
+                                    <div style="flex: 1 1 150px; text-align: center;">
+                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8A79E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                                        <p style="color: rgba(255, 255, 255, 0.85); font-size: 14px; font-weight: bold; line-height: 1.4;">Restaurant-Owned<br>Platforms</p>
+                                    </div>
+                                    <div style="flex: 1 1 150px; text-align: center;">
+                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8A79E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                                        <p style="color: rgba(255, 255, 255, 0.85); font-size: 14px; font-weight: bold; line-height: 1.4;">White-Label<br>Solutions</p>
+                                    </div>
+                                    <div style="flex: 1 1 150px; text-align: center;">
+                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8A79E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                                        <p style="color: rgba(255, 255, 255, 0.85); font-size: 14px; font-weight: bold; line-height: 1.4;">Cloud Kitchen & Virtual<br>Restaurant Platforms</p>
+                                    </div>
+                                    <div style="flex: 1 1 150px; text-align: center;">
+                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8A79E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 15px;"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                                        <p style="color: rgba(255, 255, 255, 0.85); font-size: 14px; font-weight: bold; line-height: 1.4;">Supporting & Integrated<br>Delivery Systems</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- POS Systems Section -->
+                            <div class="pos-systems-section glass-card" style="margin-top: 60px; padding: 50px; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 30px; display: flex; flex-wrap: wrap; gap: 50px; background: #0A0A0E;">
+                                <div class="pos-left" style="flex: 1 1 300px;">
+                                    <h3 style="color: #8A79E2; font-size: 22px; margin-bottom: 25px; text-transform: uppercase;">Point of Sale (POS) Systems</h3>
+                                    <p style="color: rgba(255,255,255,0.7); font-size: 16px; line-height: 1.8;">POS (Point of Sale) systems integrate with food delivery platforms through direct API connections, middleware, or third-party aggregators, allowing seamless transfer of online orders directly into the restaurant's workflow.</p>
+                                </div>
+                                <div class="pos-right" style="flex: 1.5 1 400px;">
+                                    <h3 style="color: #8A79E2; font-size: 20px; margin-bottom: 30px; text-transform: uppercase;">How POS Integration Works?</h3>
+                                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+                                        <div style="background: rgba(255, 255, 255, 0.03); padding: 25px; border-radius: 20px;">
+                                            <div style="color: #8A79E2; font-size: 24px; font-weight: bold; margin-bottom: 15px;">01</div>
+                                            <p style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.6;">All online orders from multiple delivery platforms are <strong style="color: #fff;">funneled into the POS system automatically</strong>, appearing on the same dashboard as dine-in or takeaway orders.</p>
+                                        </div>
+                                        <div style="background: rgba(255, 255, 255, 0.03); padding: 25px; border-radius: 20px;">
+                                            <div style="color: #8A79E2; font-size: 24px; font-weight: bold; margin-bottom: 15px;">02</div>
+                                            <p style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.6;">The <strong style="color: #fff;">POS syncs menu details</strong> (items, prices, availability) in real time with delivery platforms, so updates can be managed centrally.</p>
+                                        </div>
+                                        <div style="background: rgba(255, 255, 255, 0.03); padding: 25px; border-radius: 20px;">
+                                            <div style="color: #8A79E2; font-size: 24px; font-weight: bold; margin-bottom: 15px;">03</div>
+                                            <p style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.6;">Integrated <strong style="color: #fff;">POS updates inventory and sales data</strong> the moment an order is accepted, providing unified analytics and reducing stockouts.</p>
+                                        </div>
+                                        <div style="background: rgba(255, 255, 255, 0.03); padding: 25px; border-radius: 20px;">
+                                            <div style="color: #8A79E2; font-size: 24px; font-weight: bold; margin-bottom: 15px;">04</div>
+                                            <p style="color: rgba(255,255,255,0.7); font-size: 14px; line-height: 1.6;"><strong style="color: #fff;">Kitchen tickets are generated instantly</strong> for orders, minimizing lag and ensuring efficient kitchen workflow.</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <!-- User Personas Section -->
+                        <div class="user-personas-section" style="margin-top: 100px;">
+                            <div class="problem-top-meta">
+                                <span class="meta-left">Structuring insights into personas and journey maps.</span>
+                                <span class="meta-right">Define Phase • User Personas</span>
+                            </div>
+                            
+                            <div class="problem-main-header">
+                                <h2 class="problem-title purple-text">User<br>Persona</h2>
+                                <div class="problem-header-right">
+                                    <p class="problem-subtitle">During the Define phase, I structured insights into personas and journey maps to clearly define user needs, motivations, and core problems.</p>
+                                </div>
+                            </div>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 40px; align-items: start;">
+                                <img src="images/Project2 Web_User Persona 1.png" alt="User Persona - Restaurant Manager" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                                <img src="images/Project2 Web_User persona -2 Priya Horizontal.png" alt="User Persona - Order Coordinator" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                            </div>
+                        </div>
+
+                        <!-- User Journey Section -->
+                        <div class="user-journey-section" style="margin-top: 100px;">
+                            <div class="problem-top-meta">
+                                <span class="meta-left">Mapping the user's emotional and functional path.</span>
+                                <span class="meta-right">Define Phase • User Journey Map</span>
+                            </div>
+                            
+                            <div class="problem-main-header">
+                                <h2 class="problem-title purple-text">User<br>Journey Map</h2>
+                                <div class="problem-header-right">
+                                    <p class="problem-subtitle">I mapped out the journey of our primary persona to identify critical pain points and opportunities for improvement throughout their food delivery operations.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="glass-card" style="padding: 40px; background: rgba(138, 121, 226, 0.05); border: 1px solid rgba(138, 121, 226, 0.2); border-radius: 30px; margin-bottom: 40px;">
+                                <h3 style="color: #8A79E2; margin-bottom: 15px; font-size: 20px;">Scenario</h3>
+                                <p style="color: rgba(255,255,255,0.8); line-height: 1.8; font-size: 16px;">Priya is a full-time restaurant operator who manages the constant flow of online food delivery orders throughout the day. Her role requires juggling multiple delivery apps, coordinating with the kitchen, and updating order statuses while keeping the workflow running smoothly. Switching between different systems and handling peak-hour rush often leaves her feeling pressured and exhausted. She needs a unified, reliable backend solution that helps her manage orders efficiently, reduces confusion, and supports her in delivering a smooth experience from kitchen to doorstep.</p>
+                            </div>
+
+                            <img src="images/Project2 Web_user journey.png" alt="User Journey Map" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                        </div>
+                    </div>
+                </section>
+                <section class="showcase-section gray-bg" id="ia">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Organizing the backend structure and order flow.</span>
+                            <span class="meta-right">Define Phase • Information Architecture</span>
+                        </div>
+
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">Information<br>Architecture</h2>
+                            <div class="problem-header-right">
+                                <p class="problem-subtitle">Structuring the platform's ecosystem to ensure seamless navigation for restaurant staff, order coordinators, and kitchen operators. This architecture balances complex data management with simple, intuitive interactions.</p>
+                            </div>
+                        </div>
+
+                        <!-- Sitemap Subsection -->
+                        <div class="ia-subsection" style="margin-top: 60px;">
+                            <h3 class="col-heading" style="font-size: 24px; margin-bottom: 30px; color: #FF9E9E; text-transform: uppercase; letter-spacing: 1px;">Sitemap</h3>
+                            <div class="sitemap-gallery" style="display: flex; flex-direction: column; gap: 40px;">
+                                <img src="images/Project2 Web_Food Ride IA.png" alt="Food Ride Sitemap" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                            </div>
+                        </div>
+
+                        <!-- User Flows Subsection -->
+                        <div class="ia-subsection" style="margin-top: 80px;">
+                            <h3 class="col-heading" style="font-size: 24px; margin-bottom: 30px; color: #FF9E9E; text-transform: uppercase; letter-spacing: 1px;">User Flows</h3>
+                            <div style="display: flex; flex-direction: column; gap: 40px;">
+                                <div>
+                                    <h4 style="color: #8A79E2; font-size: 20px; margin-bottom: 15px; font-family: 'Righteous', sans-serif;">User Flow 1: New Order to Delivery</h4>
+                                    <img src="images/Project2 Web_ Userflow 1.png" alt="Food Ride User Flow 1" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                                </div>
+                                <div>
+                                    <h4 style="color: #8A79E2; font-size: 20px; margin-bottom: 15px; font-family: 'Righteous', sans-serif;">User Flow 2: Change Menu / Store Settings</h4>
+                                    <img src="images/Project2 Web_user flow 2.png" alt="Food Ride User Flow 2" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="showcase-section" id="wireframes">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Translating structure into visual layouts.</span>
+                            <span class="meta-right">Ideate Phase • Wireframes</span>
+                        </div>
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">Solution<br>wireframing</h2>
+                            <div class="problem-header-right">
+                                <p class="problem-subtitle">These wireframes establish the core layout and information hierarchy for optimal POS efficiency and kitchen workflows.</p>
+                            </div>
+                        </div>
+                        <div class="persona-slider-wrapper" style="margin-top: 60px;">
+                            <button class="slider-nav prev" id="wireframe-prev">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            </button>
+                            
+                            <div class="personas-slider" id="wireframe-slider">
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_LoginPage wireframe 1.png" alt="Login Page Wireframe 1" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Dashboard wireframe 2.png" alt="Dashboard Wireframe 2" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - New wireframe 3.png" alt="Order - New Wireframe 3" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - Completed Wireframe 4.png" alt="Order - Completed Wireframe 4" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - Active wireframe 5.png" alt="Order - Active Wireframe 5" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - Completed with details {top} 6.png" alt="Order - Completed with details 6" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_online Items settings overlay wireframe 7.png" alt="Online Items Settings Overlay Wireframe 7" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_online store settings 0verlay wireframe 8.png" alt="Online Store Settings Overlay Wireframe 8" class="persona-img glass-card" style="width:100%;">
+                                </div>
+                            </div>
+
+                            <button class="slider-nav next" id="wireframe-next">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                        </div>
+                        
+                        <div class="slider-dots" id="wireframe-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                            <span class="dot" data-index="3"></span>
+                            <span class="dot" data-index="4"></span>
+                            <span class="dot" data-index="5"></span>
+                            <span class="dot" data-index="6"></span>
+                            <span class="dot" data-index="7"></span>
+                        </div>
+
+                        <div class="button-container" style="margin-top: 50px; display: flex; justify-content: center;">
+                            <a href="https://www.figma.com/design/aBR042S0q3BVX5fSPGx4rR/Project-Food-Ride-Case-study?node-id=2-4&t=D80ikzEUwsk61iLt-1" target="_blank" class="view-all-btn">View All Wireframes</a>
+                        </div>
+
+                        <!-- Visual Identity Subsection -->
+                        <div class="showcase-subsection" style="margin-top: 100px;">
+                            <div class="problem-top-meta">
+                                <span class="meta-left">Defining the visual language and brand essence.</span>
+                                <span class="meta-right">Design Phase • Style Guide</span>
+                            </div>
+                            <div class="problem-main-header">
+                                <h2 class="problem-title purple-text">Visual<br>Identity</h2>
+                                <p class="problem-subtitle">Establishing a modern, clean, and vibrant visual language. The palette uses deep purples and high-contrast accents to ensure excellent readability and visual focus for busy restaurant staff, paired with premium typography.</p>
+                            </div>
+                            <div class="ia-subsection" style="margin-top: 60px; text-align: center;">
+                                <img src="images/Project2 Web_Style n Typography (2).png" alt="Food Ride Visual Identity" class="persona-img glass-card" style="width: 100%; border-radius: 30px;">
+                            </div>
+                        </div>
+
+                        <!-- Component Library Subsection -->
+                        <div class="showcase-subsection" style="margin-top: 100px;">
+                            <div class="problem-top-meta">
+                                <span class="meta-left">Building a modular and scalable design system.</span>
+                                <span class="meta-right">Design Phase • UI Kit</span>
+                            </div>
+                            <div class="problem-main-header">
+                                <h2 class="problem-title purple-text">Component<br>Library</h2>
+                                <p class="problem-subtitle">A scalable design system built to ensure consistency across all parts of the restaurant management system—from order status dashboards to online store settings. Every component is crafted for speed, efficiency, and clarity.</p>
+                            </div>
+                            <div class="ia-subsection" style="margin-top: 40px; text-align: center;">
+                                <img src="images/Project2 web_Component Library.png" alt="Food Ride Component Library" class="persona-img glass-card" style="width: 100%; border-radius: 30px;">
+                                <div class="button-container" style="margin-top: 50px; display: flex; justify-content: center;">
+                                    <a href="https://www.figma.com/design/aBR042S0q3BVX5fSPGx4rR/Project-Food-Ride-Case-study?node-id=251-6&t=D80ikzEUwsk61iLt-1" target="_blank" class="view-all-btn">View Library</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="showcase-section gray-bg" id="designs">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Bringing the solution to life with high-fidelity visuals.</span>
+                            <span class="meta-right">Design Phase • High Fidelity Mockups</span>
+                        </div>
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">Final<br>Designs</h2>
+                            <div class="problem-header-right">
+                                <p class="problem-subtitle">Transforming the structural foundation into a modern, intuitive restaurant management platform that streamlines daily kitchen and POS tasks.</p>
+                            </div>
+                        </div>
+                        <div class="persona-slider-wrapper" style="margin-top: 60px;">
+                            <button class="slider-nav prev" id="design-prev">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            </button>
+                            
+                            <div class="personas-slider" id="design-slider">
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_LoginPage Hifi 1.png" alt="High Fidelity Designs 1" class="glass-card" style="width: 100%; height: auto; border-radius: 30px;" loading="lazy">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Dashboard hifi 2.png" alt="High Fidelity Designs 2" class="glass-card" style="width: 100%; height: auto; border-radius: 30px;" loading="lazy">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - New Hifi 3.png" alt="High Fidelity Designs 3" class="glass-card" style="width: 100%; height: auto; border-radius: 30px;" loading="lazy">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - New with details {Top} Hifi 4.png" alt="High Fidelity Designs 4" class="glass-card" style="width: 100%; height: auto; border-radius: 30px;" loading="lazy">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - Active hifi5.png" alt="High Fidelity Designs 5" class="glass-card" style="width: 100%; height: auto; border-radius: 30px;" loading="lazy">
+                                </div>
+                                <div class="persona-item">
+                                    <img src="images/Project2 Web_Order - Completed with details {top} hifi 6.png" alt="High Fidelity Designs 6" class="glass-card" style="width: 100%; height: auto; border-radius: 30px;" loading="lazy">
+                                </div>
+                            </div>
+
+                            <button class="slider-nav next" id="design-next">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                            </button>
+                        </div>
+                        
+                        <div class="slider-dots" id="design-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                            <span class="dot" data-index="3"></span>
+                            <span class="dot" data-index="4"></span>
+                            <span class="dot" data-index="5"></span>
+                        </div>
+                        <div class="button-group" style="margin-top: 60px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+                            <a href="https://www.figma.com/design/aBR042S0q3BVX5fSPGx4rR/Project-Food-Ride-Case-study?node-id=2-5&t=D80ikzEUwsk61iLt-1" target="_blank" class="view-all-btn">View Screens</a>
+                            <a href="https://www.figma.com/proto/aBR042S0q3BVX5fSPGx4rR/Project-Food-Ride-Case-study?node-id=168-3741&viewport=-141%2C781%2C0.16&t=ryhYC7yZGhgXMS21-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=168%3A3741&page-id=2%3A5" target="_blank" class="view-all-btn secondary">View Prototype</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="showcase-section" id="results">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Measuring success and project impact.</span>
+                            <span class="meta-right">Conclusion Phase • Outcomes</span>
+                        </div>
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">What we<br>achieved</h2>
+                            <div class="problem-header-right">
+                                <p class="problem-subtitle">Food Ride successfully bridged the gap between manual management and streamlined backend digital operations, resulting in a significantly smoother and faster workflow.</p>
+                            </div>
+                        </div>
+                        <div class="results-bento-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 60px;">
+                            <div class="bento-item glass-card" style="padding: 40px; background: rgba(138, 121, 226, 0.05); border: 1px solid rgba(138, 121, 226, 0.2); border-radius: 30px;">
+                                <h4 style="color: #8A79E2; font-size: 24px; margin-bottom: 15px;">Centralized Orders</h4>
+                                <p style="color: rgba(255,255,255,0.7); line-height: 1.6;">Unified multiple order sources into a single, intuitive backend system.</p>
+                            </div>
+                            <div class="bento-item glass-card" style="padding: 40px; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 30px;">
+                                <h4 style="color: #8A79E2; font-size: 24px; margin-bottom: 15px;">Faster Prep Times</h4>
+                                <p style="color: rgba(255,255,255,0.7); line-height: 1.6;">Clearer information display in the kitchen directly led to faster food preparation.</p>
+                            </div>
+                            <div class="bento-item glass-card" style="padding: 40px; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 30px;">
+                                <h4 style="color: #8A79E2; font-size: 24px; margin-bottom: 15px;">Seamless Tracking</h4>
+                                <p style="color: rgba(255,255,255,0.7); line-height: 1.6;">Improved tracking and notification transparency for delivery staff and operators.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="showcase-section gray-bg" id="wisdom">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Key takeaways and design reflections.</span>
+                            <span class="meta-right">Conclusion Phase • Learnings</span>
+                        </div>
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">Wisdom<br>gained</h2>
+                            <div class="problem-header-right">
+                                <p class="problem-subtitle">Developing Food Ride highlighted the complexities of busy restaurant environments and the need for zero-friction interfaces.</p>
+                            </div>
+                        </div>
+                        <div class="wisdom-list" style="margin-top: 50px; display: flex; flex-direction: column; gap: 40px;">
+                            <div class="wisdom-item" style="display: flex; gap: 30px; align-items: flex-start;">
+                                <div style="min-width: 60px; height: 60px; background: rgba(138, 121, 226, 0.1); border: 1px solid #8A79E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #8A79E2; font-size: 24px;">01</div>
+                                <div>
+                                    <h4 style="color: #8A79E2; font-size: 22px; margin-bottom: 10px;">Context is Everything</h4>
+                                    <p style="color: rgba(255,255,255,0.7); line-height: 1.6;">Designing for high-pressure, fast-paced environments requires bold UI and minimal steps.</p>
+                                </div>
+                            </div>
+                            <div class="wisdom-item" style="display: flex; gap: 30px; align-items: flex-start;">
+                                <div style="min-width: 60px; height: 60px; background: rgba(138, 121, 226, 0.1); border: 1px solid #8A79E2; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #8A79E2; font-size: 24px;">02</div>
+                                <div>
+                                    <h4 style="color: #8A79E2; font-size: 22px; margin-bottom: 10px;">Visual Hierarchy</h4>
+                                    <p style="color: rgba(255,255,255,0.7); line-height: 1.6;">Using intuitive typography and status colors significantly reduces operating errors.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="showcase-section" id="mockup">
+                    <div class="showcase-container">
+                        <div class="problem-top-meta">
+                            <span class="meta-left">Bringing it all together into a premium presentation.</span>
+                            <span class="meta-right">Conclusion Phase • Product Showcase</span>
+                        </div>
+                        <div class="problem-main-header">
+                            <h2 class="problem-title purple-text">Product<br>Mockup</h2>
+                            <div class="problem-header-right">
+                                <p class="problem-subtitle">A high-fidelity display of the fully realized Food Ride platform, showcasing how user flows, visual identity, and modular components align for maximum POS efficiency.</p>
+                            </div>
+                        </div>
+                        <div style="margin-top: 50px; display: flex; justify-content: center; text-align: center;">
+                            <img src="images/Project2 Web_Mockup.png" alt="Food Ride Product Mockup" class="persona-img glass-card" style="width: 100%; border-radius: 30px;">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer" id="connect">
+        <div class="back-to-top">
+            <a href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </a>
+        </div>
+
+        <div class="footer-content">
+            <h2 class="footer-heading">Let's Design<br>Together</h2>
+            
+            <div class="footer-buttons">
+                <a href="mailto:komalkriti.work13@gmail.com" class="footer-btn">Email</a>
+                <a href="https://www.linkedin.com/in/komalkriti" target="_blank" class="footer-btn">LinkedIn</a>
+                <a href="tel:9028012820" class="footer-btn">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="copyright">@Kokomelon. ALL RIGHTS RESERVED</div>
+            <div class="credits">Design By <span class="white-text">Komal Kriti</span></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
