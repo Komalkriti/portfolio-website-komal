@@ -3119,20 +3119,24 @@ body {
     }
 
     .card-content {
+        display: flex !important;
         flex-direction: column !important;
         min-height: auto !important;
         gap: 20px !important;
     }
 
-    .left-col {
-        padding: 15px !important;
-        align-items: center !important;
-        text-align: center !important;
+    .left-col,
+    .right-col {
+        display: contents !important;
     }
 
     .project-header {
+        display: flex !important;
+        flex-direction: column !important;
         align-items: center !important;
         margin-bottom: 15px !important;
+        order: 1 !important;
+        width: 100% !important;
     }
 
     .project-num {
@@ -3156,6 +3160,7 @@ body {
         height: auto !important;
         padding: 20px !important;
         text-align: center !important;
+        order: 4 !important;
     }
 
     .project-card:hover .info-box {
@@ -3192,19 +3197,13 @@ body {
         text-align: center !important;
     }
 
-    .right-col {
-        margin-left: 0 !important;
-        align-items: center !important;
-        justify-content: center !important;
-        width: 100% !important;
-        padding: 10px 0 !important;
-    }
-
     .banner-img {
         max-width: 100% !important;
         height: auto !important;
         max-height: 240px !important;
         object-fit: contain !important;
+        order: 3 !important;
+        margin-bottom: 15px !important;
     }
 
     .tags {
@@ -3214,12 +3213,14 @@ body {
         flex-wrap: wrap !important;
         justify-content: center !important;
         margin-bottom: 15px !important;
+        order: 2 !important;
     }
 
     .tag {
         font-size: 12px !important;
         padding: 4px 12px !important;
     }
+
 
     /* Footer Mobile Adjustments */
     .footer {
@@ -3253,6 +3254,159 @@ body {
         flex-direction: column !important;
         gap: 10px !important;
         text-align: center !important;
+    }
+
+    /* Split layout (e.g., Context & Backstory) Mobile Adjustments */
+    .split-layout {
+        flex-direction: column !important;
+        gap: 30px !important;
+    }
+
+    .split-image {
+        order: 1 !important;
+        width: 100% !important;
+    }
+
+    .split-text {
+        order: 2 !important;
+        width: 100% !important;
+    }
+
+    /* Brief tags size adjustments for mobile */
+    .brief-tags {
+        gap: 10px !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        margin-bottom: 25px !important;
+    }
+
+    .brief-tag {
+        font-size: 13px !important;
+        padding: 6px 14px !important;
+        border-radius: 10px !important;
+        border-width: 1px !important;
+    }
+
+    /* User stories vertical stack mobile overrides */
+    .stories-slider {
+        display: flex !important;
+        flex-direction: column !important;
+        overflow-x: visible !important;
+        gap: 15px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .story-slide {
+        flex: 1 1 auto !important;
+        width: 100% !important;
+    }
+
+    .story-content {
+        padding: 25px !important;
+        border-radius: 20px !important;
+    }
+
+    .story-content p {
+        font-size: 15px !important;
+        line-height: 1.4 !important;
+        margin-bottom: 15px !important;
+    }
+
+    .slider-hint {
+        display: none !important;
+    }
+
+    /* Key Findings section mobile adjustments */
+    .findings-grid {
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .finding-card {
+        padding: 15px 18px !important;
+        border-radius: 16px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .finding-card h3 {
+        font-size: 15px !important;
+        margin-bottom: 6px !important;
+        line-height: 1.3 !important;
+    }
+
+    .finding-card p {
+        font-size: 13px !important;
+        line-height: 1.4 !important;
+    }
+
+    /* Market Research section mobile adjustments */
+    .market-research-split {
+        grid-template-columns: 1fr !important;
+        gap: 30px !important;
+        margin-top: 50px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .market-content-left, .market-content-right {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .market-content-right .highlight-box {
+        padding: 20px !important;
+        border-radius: 20px !important;
+    }
+
+    /* Usability stats cards mobile overrides */
+    .stats-cards-grid {
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .stat-card {
+        padding: 20px 25px !important;
+        border-radius: 20px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        text-align: left !important;
+    }
+
+    .stat-card div:first-child {
+        font-size: 28px !important;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        line-height: 1 !important;
+    }
+
+    .stat-card div:last-child {
+        font-size: 13px !important;
+        letter-spacing: 1px !important;
+        text-align: right !important;
+    }
+
+    /* Competitive Audit section mobile adjustments */
+    .audit-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .audit-card {
+        padding: 25px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        border-radius: 20px !important;
     }
 }
 
