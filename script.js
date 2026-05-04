@@ -1,4 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // 0. Hamburger Menu Logic
+    try {
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+
+        if (hamburger && nav) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('open');
+                nav.classList.toggle('open');
+            });
+
+            // Close the menu when any link is clicked
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    hamburger.classList.remove('open');
+                    nav.classList.remove('open');
+                });
+            });
+        }
+    } catch (err) {
+        console.error("Error in hamburger menu logic:", err);
+    }
+
     // 1. Tab Switching Logic
     try {
         const tabBtns = document.querySelectorAll('.tab-btn');
