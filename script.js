@@ -322,7 +322,7 @@ function initPhysics() {
             restitution: 0.8,
             friction: 0 
         };
-        const thickness = 60;
+        const thickness = 200; // Increased thickness to prevent tunneling
         
         // Create boundaries
         const ground = Bodies.rectangle(width / 2, height + thickness / 2, width * 2, thickness, wallOptions);
@@ -424,6 +424,7 @@ function initPhysics() {
             height = container.clientHeight;
             
             Matter.Body.setPosition(ground, { x: width / 2, y: height + thickness / 2 });
+            Matter.Body.setPosition(leftWall, { x: -thickness / 2, y: height / 2 });
             Matter.Body.setPosition(rightWall, { x: width + thickness / 2, y: height / 2 });
             Matter.Body.setPosition(ceiling, { x: width / 2, y: -thickness / 2 });
         });
