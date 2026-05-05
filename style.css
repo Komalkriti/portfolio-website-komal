@@ -658,7 +658,7 @@ body {
 }
 
 .project-1 .banner-img {
-    height: 100%; /* Slightly larger for Project 1 */
+    height: 80%; /* Adjusted size for Project 1 */
 }
 
 .project-2 .banner-img {
